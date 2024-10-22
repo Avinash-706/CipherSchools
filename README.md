@@ -1,68 +1,104 @@
-🧠 MinAI – Chat with Multiple PDFs! 📄🤖
-MinAI is a web-based AI application that allows you to interact with multiple PDF files. Upload your documents, and MinAI will process them, allowing you to ask questions and receive context-aware answers from the content of your files.
+# 🤖 MinAI - Chat with Multiple PDFs using AI
 
-🌐 Live Demo: Check it out here!
+Welcome to **MinAI**, a web-based AI application that lets you chat with your PDFs. Fetch data from multiple PDFs and get answers to your questions with ease! 🎉
 
-💻 GitHub Repository: Explore the project here!
+![MinAI](https://github.com/bhargava-prashant/MinAI/blob/main/assets/MinAI.png) 
 
+🌐 **Deployed At**: [MinAI App](https://minai-0ygm.onrender.com/)  
+📂 **GitHub Repository**: [MinAI on GitHub](https://github.com/bhargava-prashant/MinAI)
 
+---
 
-✨ Features
-📁 Upload PDFs: Easily upload one or multiple PDFs, and MinAI will process them for you.
-❓ Ask Questions: Chat with MinAI by asking questions about the content of your uploaded PDFs.
-⚡ Fast Processing: MinAI processes PDFs quickly, allowing for efficient information retrieval.
-🛠️ Multi-PDF Support: Manage multiple PDFs with a total size of up to 200MB per file.
-💬 Chat History: MinAI stores your conversation history for continuous and contextual interactions.
-🛠️ Tech Stack
-Frontend: Streamlit for a responsive UI.
-Backend: Python, LangChain, FAISS for vector storage, and Google Generative AI for embeddings and response generation.
-PDF Processing: PyPDF3 to extract text from PDFs.
-Hosting: Deployed on Render.com.
-🚀 How to Run Locally
-Clone the Repository:
-bash
-Copy code
+## 📝 Project Overview
+
+MinAI is an AI-powered web app built using **Streamlit**, **LangChain**, and **Google Generative AI**. This application can:
+
+- 📄 Extract text from multiple PDF files.
+- 💡 Answer questions based on the content from those PDFs.
+- 🔍 Use FAISS for intelligent document similarity search.
+- 🗣️ Provide conversational responses with Google's Gemini AI model.
+
+---
+
+## 🚀 Features
+
+- **Upload PDFs**: Simply upload your PDF files to start the conversation.
+- **Intelligent Responses**: Get detailed and accurate answers from your PDFs.
+- **Chat History**: Keep track of your interactions with MinAI.
+- **Dark & Light Mode**: Enjoy a seamless user experience in both dark and light themes.
+- **New Chat Option**: Start a fresh chat anytime!
+
+---
+
+## 🛠️ Tech Stack
+
+MinAI is powered by:
+
+- **Streamlit** 🖥️ for the interactive user interface.
+- **Google Generative AI** 🤖 for embedding and answering questions.
+- **FAISS** 🔍 for efficient similarity searches across PDF documents.
+- **LangChain** 📚 for text splitting and chain models.
+- **PyPDF3** 📄 for PDF text extraction.
+
+---
+
+## 🎥 How It Works
+
+https://user-images.githubusercontent.com/sample-video.mp4
+
+1. **Upload PDFs** 🗂️  
+   Drag and drop your PDF files (up to 200MB each) into the sidebar.
+
+2. **Process Files** 🔄  
+   MinAI processes and indexes the files to prepare for interaction.
+
+3. **Ask Questions** ❓  
+   Simply ask any question, and MinAI will fetch the answer from your PDFs.
+
+4. **Get Responses** 🗣️  
+   MinAI will provide detailed responses based on the PDF content.
+
+---
+
+## 📦 Installation & Setup
+
+Follow the steps below to get MinAI up and running locally:
+
+```bash
+# Clone the repository
 git clone https://github.com/bhargava-prashant/MinAI.git
+
+# Navigate to the directory
 cd MinAI
-Install Dependencies:
-bash
-Copy code
+
+# Install dependencies
 pip install -r requirements.txt
-Set Up Environment:
-Create a .env file in the root directory.
-Add your Google API Key:
-plaintext
-Copy code
-GOOGLE_API_KEY=your_google_api_key_here
-Run the App:
-bash
-Copy code
+
+# Run the app
 streamlit run app.py
-Access the App:
-Once the app is running, visit http://localhost:8501 to interact with MinAI.
 
-📸 Screenshots
-Here's a sneak peek of the app in action:
+## 📸 Screenshot
 
+![MinAI Screenshot](https://github.com/bhargava-prashant/MinAI/blob/main/assets/screenshot.png)
 
+---
 
-🎥 Demo Video
-Check out a video demo to see how MinAI works in real-time.
+## 🔗 Links
 
-🌐 How It Works:
-Upload one or more PDF files (max 200MB per file).
-MinAI processes the text from the PDFs.
-Ask questions, and MinAI will give detailed responses based on the context from your files.
-Chat history is preserved for reference and continuity.
-🔧 Key Functions
-Text Extraction: Extracts text from each page of the uploaded PDFs using PyPDF3.
-Text Splitting: Splits the extracted text into manageable chunks for easier processing.
-Vector Storage: Utilizes FAISS to store text chunks in a vector format for efficient searching.
-Conversational Chain: MinAI uses LangChain with Google Generative AI models to provide detailed answers based on context.
-📜 License
-This project is licensed under the MIT License.
+- [MinAI - Live Demo](https://minai-0ygm.onrender.com/)
+- [MinAI - GitHub Repo](https://github.com/bhargava-prashant/MinAI)
 
-🤝 Contributions
-Contributions are welcome! Feel free to fork the repository and create a pull request.
+---
 
-💡 Made with ❤️ by Prashant Bhargava
+## 📞 Contact
+
+For any inquiries, feel free to contact the developer:
+
+- **Prashant Bhargava**
+  - 💌 Email: [prashantbhargava@example.com](mailto:prashantbhargava@example.com)
+  - 🐦 [Twitter](https://twitter.com/prashant_bhargava)
+
+---
+
+⚙️ **Made with ❤️ and Python**  
+Created by **Prashant Bhargava**
